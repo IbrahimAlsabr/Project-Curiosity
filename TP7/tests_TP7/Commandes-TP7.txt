@@ -1,0 +1,4 @@
+./test_curiosity chemin.test
+
+
+./test_curiosity chemin2.test

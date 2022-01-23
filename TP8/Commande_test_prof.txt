@@ -1,0 +1,4 @@
+make clean
+make
+./curiosity terrain_11x9.txt simple.prg          /** Exercice 1 **/
+./test_curiosity chemin.test                     /** Exercice 2 **/

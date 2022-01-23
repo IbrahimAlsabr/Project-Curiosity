@@ -1,0 +1,37 @@
+time ./curiosity_perf perf.test perf.sortie
+
+ ==> Modifier perf.test :
+
+ test_auto2.prg
+20
+11
+11
+0.4
+4	
+100000	
+perf.sortie
+
+test_auto2.prg
+20
+7
+7
+0.7
+4	
+100000	
+perf.sortie
+
+ ==> Tests des terrains contraignants :
+ 
+./curiosity terrain_6x6_OK.txt test_auto.prg 
+ 
+./curiosity terrain_6x6_OK.txt test_auto2.prg 
+
+./curiosity terrain_6x6_KO.txt test_auto2.prg 
+
+./curiosity terrain_6x6_OK.txt test_auto3.prg
+
+// Pas encore trouvé
+./curiosity terrain_8x8.txt test_auto3.prg
+
+
+

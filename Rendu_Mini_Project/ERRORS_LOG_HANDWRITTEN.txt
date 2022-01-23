@@ -1,0 +1,17 @@
+-- INFOS TESTS --
+	Cas d'instructions :
+
+		test_1 -> AAAAAAAAA
+			=> Sort du terrain. Le programme s'arrête.
+
+		test_2 -> GADAAAA
+			=> Tombe dans l'eau. Le programme s'arrête et ne procède pas au instructions suivantes.
+
+		test_3 -> GAAGAGA
+			=> Crashe dans un rocher. Le programme s'arrête et ne procède pas au instructions suivantes.
+
+		test_5 -> !
+			=> Pose une erreur a l'execution, curiosity s'arrête correctement en indiquant l'erreur.
+
+		test_6 -> A5F
+			=> Pose une erreur a la lecture du programme, curiosity s'arrête correctement en indiquant l'erreur.
